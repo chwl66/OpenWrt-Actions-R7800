@@ -22,9 +22,9 @@ on:
 #    types: [started]
 
 # 编辑触发
-  push:
-    branches: 
-       - master
+#  push:
+#    branches: 
+#       - master
 
 env:
   # 源
@@ -48,9 +48,9 @@ env:
   # Github
   GITHUB: github.com/chwl66/OpenWrt-Actions-R7800.git
   # 上传固件
-  UPLOAD_FIRMWARE: true
+  UPLOAD_FIRMWARE: false
   # 上传到奶牛快传
-  UPLOAD_COWTRANSFER: true
+  UPLOAD_COWTRANSFER: false
   # 创建+上传发布
   CREATE_RELEASE: true
   # 编译者
